@@ -1,0 +1,16 @@
+.about {
+  background-color: white;
+  padding: 3rem 1rem;
+
+  &__title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  &__content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
