@@ -1,0 +1,55 @@
+.contact {
+  background-color: #f1f1f1;
+  padding: 3rem 1rem;
+
+  &__title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  &__form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  &__input,
+  &__textarea {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+
+  &__button {
+    background-color: $primary-color;
+    color: white;
+    padding: 0.75rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+
+    &:hover {
+      background-color: $secondary-color;
+    }
+  }
+
+  @include respond(mobile) {
+    &__form {
+      padding: 0 1rem;
+    }
+
+    &__input,
+    &__textarea {
+      font-size: 0.9rem;
+    }
+
+    &__button {
+      font-size: 1rem;
+    }
+  }
+}
