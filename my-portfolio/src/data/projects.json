@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Travel & Booking Website",
+    "description": "Built a responsive frontend using React.js and Tailwind CSS.",
+    "image": "assets/images/travel-booking.jpg"
+  },
+  {
+    "title": "Book Library E-commerce Platform",
+    "description": "Backend built with Express.js and REST APIs.",
+    "image": "assets/images/book-library.jpg"
+  },
+  {
+    "title": "Event Management Website",
+    "description": "Built with Spring Boot REST APIs and React.js.",
+    "image": "assets/images/event-site.jpg"
+  }
+]
